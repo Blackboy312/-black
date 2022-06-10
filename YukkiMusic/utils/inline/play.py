@@ -46,12 +46,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/XxvprxX"
+                text=_["PL_B_12"], url=f"https://t.me/S_a_i_d_i"
             ),
         ],
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/XxlllllllllllllllllllllllllllxX"
+                text=_["PL_B_13"], url=f"https://t.me/JABWA"
             ),
         ],        
         [
@@ -96,12 +96,12 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/XxvprxX"
+                text=_["PL_B_12"], url=f"https://t.me/S_a_i_d_i"
             ),
         ],        
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/XxlllllllllllllllllllllllllllxX"
+                text=_["PL_B_13"], url=f"https://t.me/JABWA"
             ),
         ],        
         [
@@ -145,12 +145,12 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/XxvprxX"
+                text=_["PL_B_12"], url=f"https://t.me/S_a_i_d_i"
             ),
         ],
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/XxlllllllllllllllllllllllllllxX"
+                text=_["PL_B_13"], url=f"https://t.me/JABWA"
             ),            
         ],
         [
