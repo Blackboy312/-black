@@ -24,24 +24,24 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 
 
 @app.on_message(
-    command(["سورس جابوا","سورس","السورس","يا سورس"])
+    command(["سورس بلاك","سورس","السورس","يا سورس"])
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1de02fae526da7a3dfe67.jpg",
-        caption=f"""[⌁ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝚄𝚂𝙸𝙲 𝚂𝙰𝙸𝙳𝙸 🎸](https://t.me/S_a_i_d_i)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙰𝙱𝚆𝙰 🎸](https://t.me/JABWA)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙴𝙺𝙰 🎸](https://t.me/DevJeka)""",
+        photo=f"https://telegra.ph/file/7e3d2d281ff324c6d5eb3.jpg",
+        caption=f"""[✨ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝚄𝚂𝙸𝙲 𝙱𝙻𝙰𝙲𝙺 🎀](https://t.me/Joker197432)\n\n[✨ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙻𝙰𝙲𝙺 🎀](https://t.me/Blackkig1)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "˹ٰ𝗦ِٰٰٰٰٰٰٰٰ𝗢ِٰ𝗨ِٰ𝗥ِٰ𝗖ِٰ𝗘ٰٰٰٰٰٰٰٰٰٰٰٰٰ ٰ𝗦ِٰ𝗔ِٰ𝗜ِٰ𝗗ِٰ𝗜ٰ˼", url=f"https://t.me/S_a_i_d_i"), 
+                        "((𝙲𝙷𝙰𝙽𝙽𝙴𝙻))", url=f"https://t.me/Joker197432"), 
                 ],[
                     InlineKeyboardButton(
-                        "･ َِᥴُ ِِِꪋَٖ ꪶَِٰ ِꪑَٖ ☕️َِٖ🌿.", url=f"https://t.me/UUJEA"),
+                        "ᯓ 𓆩 ˹ 𝐁𝑳𝐀𝐂𝐊 ˼ 𓆪 𓆃", url=f"https://t.me/Blackkig1"),
                 ],[
                     InlineKeyboardButton(
-                        "أضغط لاضافه ألبوت لمجموعتك 𖣳", url=f"https://t.me/Bot_JABWA_Bot?startgroup=true"),
+                        "اضف البوت لمجموعتك 🌐", url=f"https://t.me/Bot_JABWA_Bot?startgroup=true"),
                 ],
 
             ]
